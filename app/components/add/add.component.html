@@ -1,5 +1,12 @@
-<ActionBar title="Add Mic" icon="" class="action-bar"></ActionBar>
-<StackLayout class="page p-15">
-    <Label text="Mic Details" class="h1 text-center"></Label>
-    <Label text="Form Goes Here" class="h3"></Label>
+<StackLayout>
+    <GridLayout rows="auto" columns="75,*,75" class="action-bar">
+        <Button text="Close" (tap)="close()" row="0"
+                class="action-item"></Button>
+        <Label text="Add Mic" textWrap="true" row="0" col="1"
+               class="action-bar-title text-center"></Label>
+    </GridLayout>
+    <StackLayout class="page p-15">
+        <Label text="Mic Details" class="h1 text-center"></Label>
+        <Label text="Form Goes Here" class="h3"></Label>
+    </StackLayout>
 </StackLayout>
