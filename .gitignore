@@ -1,0 +1,10 @@
+.idea
+hooks
+lib
+node_modules
+platforms
+references.d.ts
+tsconfig.json
+app/App_Resources
+*.js
+*.map
